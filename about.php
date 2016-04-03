@@ -33,7 +33,7 @@
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 					  </button>
-					 <a href="index.html" class="navbar-brand logo glyphicon glyphicon-home"></a>
+					 <a href="index.php" class="navbar-brand logo glyphicon glyphicon-home"></a>
 					</div>
 				<nav class="collapse navbar-collapse" role="navigation">
 					
@@ -41,15 +41,15 @@
 					<ul class="nav navbar-nav">
 					  <!-- Link to the about page --->
 					  <li>
-						<a href="about.html"><i class="glyphicon glyphicon-user"></i> About</a>
+						<a href="about.php"><i class="glyphicon glyphicon-user"></i> About</a>
 					  </li>
 					  <!-- Link to the post status page --->
 					  <li>
-						<a href="poststatusform.html" role="button"><i class="glyphicon glyphicon-plus"></i> Post</a>
+						<a href="poststatusform.php" role="button"><i class="glyphicon glyphicon-plus"></i> Post</a>
 					  </li>
 					  <!-- Link to the search status page --->
 					  <li>
-						<a href="searchstatusform.html" role="button"><i class="glyphicon glyphicon-search"></i> Search</a>
+						<a href="searchstatusform.php" role="button"><i class="glyphicon glyphicon-search"></i> Search</a>
 					  </li>
 					</ul>
 					
@@ -59,13 +59,13 @@
 						<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="glyphicon glyphicon-menu-hamburger"></i>Menu</a>
 						<ul class="dropdown-menu">
 						<!-- Link to the Home page --->
-							<li><a href="index.html">Home</a></li>
+							<li><a href="index.php">Home</a></li>
 							<!-- Link to the Post status page --->
-							<li><a href="poststatusform.html">Post</a></li>
+							<li><a href="poststatusform.php">Post</a></li>
 							<!-- Link to the search status page --->
-							<li><a href="searchstatusform.html">Search</a></li>
+							<li><a href="searchstatusform.php">Search</a></li>
 							<!-- Link to the about page --->
-							<li><a href="about.html">About</a></li>
+							<li><a href="about.php">About</a></li>
 						</ul>
 					  </li>
 					</ul>
@@ -90,19 +90,34 @@
 								<!-- Displayed questions as a list, looks cleaner-->
 								<ul>
 									<li>What features have you done or attempted in creating the site we should know about?
-									<br></li>
-										<br>
+										<br>I've used the Bootstrap framework, which provides better visibility among browsers, regardless of size
+										<br>I've used a navigation bar consistent throughout all pages, so that all pages are easily accesible
+										<br>I've attempted to create a search bar within the nav-bar, to provide quick status searching
+									</li>
+									<br>
 									<li>Which parts did you have trouble with?
-									<br></li>
-										<br>
+										<br>Initially, I had trouble with the bootstrap framework, which was a whole lot of fun to implement
+										<br>As I got to the backend, I did have some trouble with the PHP side of things, mostly because I'm not a strong programmer
+									</li>
+									<br>
 									<li>What would you like to do better next time?
-									<br></li>
-										<br>
+										<br>I'd like to be a better programmer, but that's something I'm naturally weak at, which can't be helped
+										<br>Implied as above, I'd like to have figured out the Backend side of things a bit better, such as DB connection, and a more precise search process
+									</li>
+									<br>
 									<li>What references/sources you have used to help you learn how to create your website?
-									<br></li>
-										<br>
+										<br>Code Academy & Lecture slides to learn PHP
+										<br><a href="www.w3schools.com">W3 Schools</a> for basically everything (from HTML, CSS, JS and BootStrap to PHP
+										<br><a href="www.php.net/manual/">PHP Manual</a> for further PHP help
+										<br><a href="www.getbootstrap.com">Get Bootstrap</a> & <a href="www.startbootstrap.com">Start Bootstrap</a> for further Boostrap related stuff
+										<br>YouTube & Stack Exchange for various other tutorials and guides for smaller things
+										<br><a href="http://www.bootstrapzero.com">BootStrapZero.com</a> for providing an amazing template (primarily the CSS stylesheet) for my assignment. I already previously knew Bootstrap, so I wanted to use an existing stylesheet to style my assignment
+									</li>
+									<br>
 									<li>What have you learnt along the way?
-									<br></li>
+										<br>Mostly just reinforcing my current web development technologies, PHP, HTML, JS, CSS, and other web frameworks
+										<br>If I had to be more specific, I'd say learning applications with PHP has been incredibly helpful also.
+									</li>
 								</ul>
 							</div>
 						</div>

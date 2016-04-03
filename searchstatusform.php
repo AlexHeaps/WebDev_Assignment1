@@ -33,7 +33,7 @@
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 					  </button>
-					 <a href="index.html" class="navbar-brand logo glyphicon glyphicon-home"></a>
+					 <a href="index.php" class="navbar-brand logo glyphicon glyphicon-home"></a>
 					</div>
 				<nav class="collapse navbar-collapse" role="navigation">
 					
@@ -41,15 +41,15 @@
 					<ul class="nav navbar-nav">
 					  <!-- Link to the about page --->
 					  <li>
-						<a href="about.html"><i class="glyphicon glyphicon-user"></i> About</a>
+						<a href="about.php"><i class="glyphicon glyphicon-user"></i> About</a>
 					  </li>
 					  <!-- Link to the post status page --->
 					  <li>
-						<a href="poststatusform.html" role="button"><i class="glyphicon glyphicon-plus"></i> Post</a>
+						<a href="poststatusform.php" role="button"><i class="glyphicon glyphicon-plus"></i> Post</a>
 					  </li>
 					  <!-- Link to the search status page --->
 					  <li>
-						<a href="searchstatusform.html" role="button"><i class="glyphicon glyphicon-search"></i> Search</a>
+						<a href="searchstatusform.php" role="button"><i class="glyphicon glyphicon-search"></i> Search</a>
 					  </li>
 					</ul>
 					
@@ -59,13 +59,13 @@
 						<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="glyphicon glyphicon-menu-hamburger"></i>Menu</a>
 						<ul class="dropdown-menu">
 						<!-- Link to the Home page --->
-							<li><a href="index.html">Home</a></li>
+							<li><a href="index.php">Home</a></li>
 							<!-- Link to the Post status page --->
-							<li><a href="poststatusform.html">Post</a></li>
+							<li><a href="poststatusform.php">Post</a></li>
 							<!-- Link to the search status page --->
-							<li><a href="searchstatusform.html">Search</a></li>
+							<li><a href="searchstatusform.php">Search</a></li>
 							<!-- Link to the about page --->
-							<li><a href="about.html">About</a></li>
+							<li><a href="about.php">About</a></li>
 						</ul>
 					  </li>
 					</ul>
