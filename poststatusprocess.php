@@ -1,6 +1,6 @@
 <?php
 
-//This is the code for validating and connecting to the databaase
+//This is the code for validating and connecting to the database
 
 //Validate Form
 	$stCodeerr = false;
@@ -43,10 +43,10 @@
 	if($staterr == false AND $statpaterr == false AND $stCodeerr == false AND $stCodepatterr == false){
 		
 		//details for database
-		$serverName = "localhost:3306";
-		$userName = "root";
+		$serverName = "cmslamp14.aut.ac.nz";
+		$userName = "vhr1671";
 		$password = "";
-		$dbName = "test";
+		$dbName = "vhr1671";
 		
 		//connection to database
 		$conn = mysqli_connect($serverName, $userName, $password, $dbName);
